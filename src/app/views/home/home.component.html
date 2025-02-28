@@ -1,0 +1,213 @@
+
+<section id="home">
+    <img class="img-fluid" src="assets/img/webbg1.jpg" alt="" style="width:100%;margin:auto;display: block;">
+   
+</section>
+<section class="quote-area pt-100 pb-100">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-sm-12 quote-left">
+                <h2 class="text-right">
+                    <span>Music</span> gives soul to the universe,<br>
+                    wings to the <span>mind</span>, flight<br>
+                    to the <span>imagination</span>.
+                </h2>
+            </div>
+            <div class="col-lg-6 col-sm-12 quote-right">
+                <p class="text-left">
+                    Music can be a source of comfort in difficult times, a catalyst for celebration during joyous occasions, and a medium for self-expression. It has the ability to transport us to different places and evoke memories and feelings that may have been long forgotten. It has the power to heal, to uplift, and to unite.                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="bg1" class="service-area pt-100 pb-100" data-parallax="scroll" data-image-src="assets/img/musicbg2.jpg">
+    <div class="container-fluid">
+       <h3 style="color:#fff;text-align:center;font-family: Poppins, sans-serif;font-size:40px;padding:20px;font-weight: 400;">MAKE THE MUSIC <br><span style="font-size:25px;font-weight:500px">PLAY YOUR  EMOTIONS</span></h3>
+        <!-- Tracks used in this music/audio player application are free to use. I downloaded them from Soundcloud and NCS websites. I am not the owner of these tracks. -->
+        <div class="row">
+            <div class="col-lg-6 col-md-12 no-padding">
+               
+        
+                            <img class="img-fluid" src="assets/img/mockup.png" alt="" style="width:30%;margin:auto;display: block;">
+                            <a href="https://play.google.com/store/apps/details?id=com.app.mets_beats_app"><img class="img-fluid" src="assets/img/1.png" alt="" style="width:200px;margin:auto;display: block;margin-top:-20px;"></a>
+                        </div>
+            <div class="col-lg-6 col-md-12 no-padding ">
+<div style="margin:auto;display: block;">
+                <div class="player">
+                    <div class="imgbx">
+                        <img src="assets/img/musicplay.png">
+                    </div>
+                    <audio *ngIf="status==0 && songUrl!=''" controls  (ended)="check()"  autoplay>
+                        <source [src]="songUrl"  type="audio/mpeg">
+                    </audio>
+                    <audio *ngIf="status==1" controls  autoplay  (ended)="check()">
+                        <source src="http://139.84.138.193:8000/mets/stream" type="audio/mpeg">
+                    </audio>
+                   </div>
+                </div>
+                </div>
+                </div>
+            </div>
+   
+            
+                
+            <div>
+              
+              </div>
+            
+</section>
+
+
+       
+       
+
+ 
+ 
+	<!-- Start service Area -->
+    <section id="features" class="service-area pt-100 pb-100" data-parallax="scroll" data-image-src="assets/img/bg (1).jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="single-service d-flex justify-content-between align-items-top">
+                        <div class="icon">
+                            <img src="assets/img/s1.png" alt="">
+                        </div>
+                        <div class="desc">
+                            <h4 class="text-uppercase">Streaming Platforms</h4>
+                            <p>
+                                Online music streaming platforms like Spotify, Apple Music, and YouTube Music allow users to access a vast library of songs and albums on-demand. They offer personalized recommendations, curated playlists, and the ability to create your own playlists.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="single-service d-flex justify-content-between align-items-top">
+                        <div class="icon">
+                            <img src="assets/img/s2.png" alt="">
+                        </div>
+                        <div class="desc">
+                            <h4 class="text-uppercase">Personalized Experiences</h4>
+                            <p>
+                                Online music platforms leverage data and user preferences to create personalized experiences. They analyze listening habits to curate personalized playlists, suggest similar artists, and recommend tailored content, providing a unique music experience for each user.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="single-service d-flex justify-content-between align-items-top">
+                        <div class="icon">
+                            <img src="assets/img/s3.png" alt="">
+                        </div>
+                        <div class="desc">
+                            <h4 class="text-uppercase">Music Discovery</h4>
+                            <p>
+                                Online platforms provide various features to help users discover new music. This includes algorithm-based recommendations based on your listening history, personalized playlists, genre-specific charts, and artist/song radios.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End service Area -->
+
+    <!-- Start member Area -->
+    <section class="member-area relative pt-100 pb-100">
+        <div class="overlay overlay-bg"></div>
+        <div class="container relative">
+            <div class="row justify-content-center">
+                <div class="active-member-carousel">
+                    <div class="single-member item">
+                            <div class="member-info d-flex flex-row justify-content-center">
+                                <!-- <img class="" style="width:100px;height: 100%;" src="assets/img/tutor.jpg" alt=""> -->
+                                <!-- <div class="details">
+                                    <h4 class="text-white text-uppercase">Dr.Varghese George</h4>
+                                    <p> CEO in an affiliate of EMAAR Investments and Infrastructure in Dubai</p>
+                                    <!-- <p>Date of Birth: 31st Dec, 1989</p> --
+                                </div> -->
+                            </div>
+                            <p class="summery">
+                                " This website's extensive collection and user-friendly interface have made it incredibly easy for me to explore a wide range of genres and discover hidden musical gems.Thank you for creating such an incredible online music experience!"                            </p>
+                    </div>
+                    <div class="single-member item">
+                            <div class="member-info d-flex flex-row justify-content-center">
+                                <!-- <img class="" style="width:100px;height: 100%;" src="assets/img/tutor.jpg" alt=""> -->
+                                <!-- <div class="details">
+                                    <h4 class="text-white text-uppercase">Fredric Elsa</h4>
+                                    <p>Lead Vocalist</p>
+                                    <p>Date of Birth: 31st Dec, 1989</p>
+                                </div>  -->
+                            </div> 
+                            <p class="summery">
+                                "Discovering this music website has been a game-changer for me. As a music lover, I'm constantly on the lookout for new songs and artists to add to my playlist.                            </p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="next-trigger"><span class="lnr lnr-arrow-right"></span></div>
+            <div class="prev-trigger"><span class="lnr lnr-arrow-left"></span></div>
+        </div>
+    </section>
+    <!-- End member Area -->
+
+    <!-- Start About Area -->
+    <section class="about-area" id="about">
+        <div class="container-fluid">
+            <div class="row  d-flex justify-content-start align-items-center">
+                <div class="col-lg-6 col-md-12 no-padding">
+                    <img class="img-fluid" src="assets/img/person.jpg" alt="">
+                </div>
+                <div class="about-details col-lg-4 col-md-12">
+                    <h2>
+                        <span>Music</span> gives soul to the universe, <br>
+                        wings to the <span>mind</span>, flight <br>
+                        to the <span>imagination</span>.
+                    </h2>
+                    <p>
+                        Music is a beautiful form of art that has the power to evoke emotions, inspire creativity, and bring people together. It is created through the combination of melody, rhythm, harmony, and lyrics, and spans across countless genres and styles. From classical masterpieces to modern pop hits, music has the ability to transcend boundaries and resonate with individuals from all walks of life.</p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End About Area -->
+
+    <!-- Start contact Area
+    <section class="contact-area pt-100 pb-100" id="contact">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-4 title-section">
+                    <h2 class="text-uppercase">
+                        Send <br>
+                        Us <br>
+                        Message
+                    </h2>
+                    <p>
+                        We won’t send any kind of spam
+                    </p>
+                </div>
+                <div class="col-lg-8">
+                        <form id="myForm"  class="contact-form" [formGroup]="contactForm" (submit)="contact()">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-6">
+                                    <input placeholder="Enter your name" formControlName="firstname"  class="common-input mt-20"  type="text" required>
+
+                                    <input placeholder="Enter email address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="common-input mt-20" type="email" formControlName="email" required>
+                                    <input placeholder="Enter phone number"  onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter phone number'" class="common-input mt-20"  type="text" formControlName="phone" required>
+                                    <input placeholder="Subject"  onfocus="this.placeholder = ''" onblur="this.placeholder = 'Subject'" class="common-input mt-20"  type="text" formControlName="subject" required>
+                                    <input placeholder="Messege"  onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'" class="common-input mt-20"  type="text" formControlName="messege" required>
+
+                                </div>
+                                <div class="col-lg-6">
+                                    <input placeholder="Subject"  onfocus="this.placeholder = ''" onblur="this.placeholder = 'Subject'" class="common-input mt-20"  type="text" formControlName="subject" required>
+                                    <!-- <input placeholder="Messege"  onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'" class="common-input mt-20"  type="text" formControlName="messege" required> -->
+
+                                    <!-- <textarea class="common-textarea mt-10" placeholder="Write Your Message" id="message" name="message" formControlName="Message" required></textarea> -->
+                                    <!-- <textarea class="common-textarea mt-10"  name="message" placeholder="Messege" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'" formControlName="Messege" required></textarea> --
+
+                                    <button class="primary-btn d-inline-flex align-items-center mt-20"><span class="mr-10">Send Message</span><span class="lnr lnr-arrow-right"></span></button> <br>
+                                   
+                                </div>
+                            </div>
+                        </form>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- End contact Area -->
